@@ -8,6 +8,16 @@ namespace Plover.Data.Entities
     /// </summary>
     public class Node
     {
+        public int Id { get; set; }
+
+        /// <summary>
+        /// 节点名称
+        /// </summary>
+        /// <value>The name.</value>
+        public string Name { get; set; }
+
+
+
 
         /// <summary>
         /// 节点归属的板块
