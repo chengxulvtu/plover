@@ -14,6 +14,11 @@ namespace Plover.Data.Entities
         public string UserName { get; set; }
 
         /// <summary>
+        /// 密码（加密）
+        /// </summary>
+        public string Password { get; set; }
+
+        /// <summary>
         /// Email
         /// </summary>
         public string Email { get; set; }
