@@ -1,8 +1,6 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plover", "Plover\Plover.csproj", "{C55684EC-159D-4D7B-BD3E-5E5860E7B5EA}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plover.Data.Entities", "Plover.Data.Entities\Plover.Data.Entities.csproj", "{7DBDFD7B-24CE-449E-B6AB-B6802EB00C4F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plover.Data.Abstractions", "Plover.Data.Abstractions\Plover.Data.Abstractions.csproj", "{B0F3F55E-5DFE-40DD-9FD5-CA7C921CF6B0}"
@@ -11,16 +9,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plover.Data.EntityFramework
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plover.Infrastructure", "Plover.Infrastructure\Plover.Infrastructure.csproj", "{E175982E-B25B-4A63-A587-F2EEB2A5BC1C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plover", "Plover\Plover.csproj", "{198E842F-AAED-4F00-B8F8-0875A9FD0CAA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C55684EC-159D-4D7B-BD3E-5E5860E7B5EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C55684EC-159D-4D7B-BD3E-5E5860E7B5EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C55684EC-159D-4D7B-BD3E-5E5860E7B5EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C55684EC-159D-4D7B-BD3E-5E5860E7B5EA}.Release|Any CPU.Build.0 = Release|Any CPU
 		{7DBDFD7B-24CE-449E-B6AB-B6802EB00C4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7DBDFD7B-24CE-449E-B6AB-B6802EB00C4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7DBDFD7B-24CE-449E-B6AB-B6802EB00C4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -37,5 +33,9 @@ Global
 		{E175982E-B25B-4A63-A587-F2EEB2A5BC1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E175982E-B25B-4A63-A587-F2EEB2A5BC1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E175982E-B25B-4A63-A587-F2EEB2A5BC1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{198E842F-AAED-4F00-B8F8-0875A9FD0CAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{198E842F-AAED-4F00-B8F8-0875A9FD0CAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{198E842F-AAED-4F00-B8F8-0875A9FD0CAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{198E842F-AAED-4F00-B8F8-0875A9FD0CAA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
